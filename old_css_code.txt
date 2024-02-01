@@ -1,0 +1,47 @@
+*{
+    font-family: roboto;
+}
+
+.header{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    background-color: #1F2937;
+    
+}
+
+.header h1{
+    color: white;
+    font-size: 24px;
+    padding-left: 200px;
+
+}
+
+.header .header_links ul{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    flex: 1 1 auto;
+
+}
+.body ul{
+    color: black;
+}
+
+
+
+.body p{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: light italic;
+}

@@ -4,31 +4,30 @@
 
 .header{
     display: flex;
-    align-content: center;
+    background-color: #1f2937;
     justify-content: space-between;
-    background-color: #1F2937;
-    padding: 8px;
+    align-items: center;
 }
 
-.header h1{
+.header_links{
+    display: flex;
+    align-items: center;
+}
+
+.header_links ul{
+    display: flex;
+    padding-right: 100px;
+    gap: 15px;
     color: white;
-    font-size: 24px;
-    padding-left: 200px;
-}
-
-.header .header_links{
-    flex: 1;
-    font-size: 18px;
-    color: #E5E7EB
-    
 }
 
 ul{
     list-style-type: none;
 }
 
-.body p{
-    font-size: 36px;
-    color: #1F2937;
-    font-family: light italic;
+
+h1{
+    color: white;
+    padding-left: 100px;
 }
+
