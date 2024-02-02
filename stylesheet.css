@@ -7,6 +7,13 @@
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 300px;
+}
+
+.header_body
+{
+    flex-wrap: wrap;
+    
 }
 
 .header_links{
