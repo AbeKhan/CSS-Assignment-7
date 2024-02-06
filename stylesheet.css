@@ -7,18 +7,23 @@
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 300px;
 }
 
 .header_body
 {
-    flex-wrap: wrap;
-    
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    color:  white; 
 }
+
+
 
 .header_links{
     display: flex;
-    align-items: center;
+    align-items: first baseline;
+    
 }
 
 .header_links ul{
